@@ -1,0 +1,17 @@
+{
+  "name": "hello-sam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/hello.ts",
+  "scripts": {
+    "compile": "npx tsc --lib ES2015 src/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.23",
+    "@types/node": "^11.13.0",
+    "typescript": "^3.4.1"
+  }
+}
